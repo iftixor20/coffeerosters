@@ -1037,7 +1037,7 @@ body {
 
   /* HERO */
   .hero-section {
-    background-image: url("../img/creat-plan-bitmap.png");
+    background-image: url("../../img/creat-plan-bitmap.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1207,7 +1207,7 @@ body {
   }
 
   .hero-section {
-    background-image: url("../img/creat-plan-bitmap.png");
+    background-image: url("../../img/creat-plan-bitmap.png");
   }
 
   .hero-heading {
