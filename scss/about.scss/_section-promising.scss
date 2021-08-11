@@ -1,0 +1,97 @@
+.uncompromising-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #FEFCF7;
+  margin: 0;
+  padding: 0;
+}
+
+.uncompromising-text {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+
+.uncompromising {
+  margin-top: 198px;
+  background-color: #2C343E;
+  border-radius: 10px;
+}
+
+.uncompromising-title {
+  padding-top: 142px;
+  margin-bottom: 24px;
+}
+
+.uncompromising-text {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 61px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 279px;
+  height: 156px;
+  left: calc(50% - 151px);
+  top: -77px;
+  background-image: url('../../img/Bitmap-coffe.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .uncompromising {
+    margin-top: 198px;
+    background-color: #2C343E;
+    border-radius: 10px;
+  }
+
+  .uncompromising-title {
+    padding-top: 289px;
+    line-height: 48px;
+  }
+
+  .uncompromising-text {
+    padding-left: 100px;
+    padding-right: 128px;
+    padding-bottom: 61px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }
+
+  .wrapper::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 573px;
+    height: 320px;
+    left: 67px;
+    top: -316px;
+    background-image: url('../../img/Bitmap-coffe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 28px;
+    margin-top: 178px;
+  }
+}

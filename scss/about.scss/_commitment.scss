@@ -1,0 +1,46 @@
+.commitment--img {
+  width: 327px;
+  height: 400px;
+}
+
+.commitment--heading {
+  font-family: 'Fraunces 9pt', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.commitment--text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) {
+  .commitment {
+    margin-bottom: 338px;
+  }
+
+  .commitment--img {
+    width: 281px;
+    height: 470px;
+  }
+
+  .commitment--list {
+    display: flex;
+  }
+
+  .site-commitment {
+    margin-left: 70px;
+  }
+
+  .commitment--text {
+    font-family: 'Barlow'sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333D4B;
+    opacity: 0.8;
+  }
+}

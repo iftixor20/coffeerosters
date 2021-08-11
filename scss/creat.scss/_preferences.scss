@@ -1,0 +1,79 @@
+.preferences {
+  display: none;
+}
+
+.how__drink {
+  margin-top: 111px;
+  margin-bottom: 32px;
+}
+
+.how__drink--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.how__drink--button {
+  border: none;
+  background-color: transparent;
+}
+
+.how__drink--heading {
+  width: 240px;
+  font-family: 'Fraunces 9pt', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #83888F;
+}
+
+.how__drink--content {
+  display: flex;
+  padding: 32px 28px 84px 28px;
+  flex-direction: column;
+  background-color: #F4F1EB;
+  color: #FFF;
+  transition: all 0.5s ease;
+}
+
+.how__drink--content:hover{
+  background-color: #FDD6BA;
+  border-radius: 10px;
+}
+
+.faq-from__group {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  transition: all 0.5s ease;
+}
+
+.capsule {
+  font-family: 'Fraunces 9pt', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 24px;
+  white-space: nowrap;
+}
+
+.compatible {
+  font-family: 'Barlow',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  width: 172px;
+}
+
+.how__drink--button{
+  cursor: pointer;
+}
+
+.how__drink--button::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

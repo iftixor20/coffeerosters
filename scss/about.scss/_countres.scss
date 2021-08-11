@@ -1,0 +1,121 @@
+.countres--heading {
+  font-family: 'Fraunces 9pt', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #83888F;
+  margin-top: 120px;
+  margin-bottom: 169px;
+}
+
+.countres--item {
+  padding: 0;
+}
+
+.countres--icon {
+  list-style: none;
+  margin-bottom: 177px;
+}
+
+.kingdom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kingdom--heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces 9pt', sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.kingdom--adress {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #333D4B;
+  text-align: center;
+}
+
+.kingdom::before {
+  content: '';
+  position: absolute;
+  width: 41px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/kingdom.svg");
+  top: -71px;
+  left: calc(50% - 17px);
+}
+
+.kingdom--two::before {
+  background-image: url("../../img/canada.svg");
+  width: 52px;
+}
+
+.kingdom--three::before {
+  background-image: url("../../img/australia.svg");
+  width: 52px;
+}
+
+.countres--icon__three {
+  margin-bottom: 120px;
+}
+
+@media only screen and (min-width: 768px) {
+  .countres--item {
+    display: flex;
+    margin-left: -47px;
+  }
+
+  .countres--icon{
+    margin-left: 47px;
+  }
+
+  .countres--heading {
+    text-align: left;
+  }
+
+  .kingdom--heading {
+    text-align: left;
+  }
+
+  .kingdom--adress {
+    text-align: left;
+  }
+
+
+  .kingdom::before {
+    content: '';
+    position: absolute;
+    width: 41px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url("../../img/kingdom.svg");
+    top: -71px;
+    left: calc(50% - 108px);
+  }
+
+  .kingdom--two::before {
+    background-image: url("../../img/canada.svg");
+    width: 52px;
+    margin-left: 32px;
+  }
+
+  .kingdom--three::before {
+    background-image: url("../../img/australia.svg");
+    width: 52px;
+    margin-left: 38px;
+  }
+
+}

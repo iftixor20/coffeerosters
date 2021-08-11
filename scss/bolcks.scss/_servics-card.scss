@@ -1,0 +1,39 @@
+.services-card {
+  padding: 72px 34px 51px 34px;
+  margin-bottom: 24px;
+}
+
+.services-card__img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-card__heading {
+  font-family: 'Fraunces 9pt';
+  font-size: 24px;
+  line-height: 32px;
+  color: #FEFCF7;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.services-card__text {
+  width: 212px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+@media only screen and (min-width: 660px) {
+
+}

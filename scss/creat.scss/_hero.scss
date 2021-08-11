@@ -1,0 +1,49 @@
+.hero {
+  padding-top: 40px;
+}
+
+.hero-section {
+  background-image: url('../img/mobile-bitmap-creat.png');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  padding: 100px 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.hero-heading {
+  font-family: 'Fraunces 9pt', sans-serif;
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 39px;
+}
+
+.hero-link {
+  text-decoration: none;
+  padding: 15px 31px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background: #0E8784;
+  border-radius: 6px;
+}

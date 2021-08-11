@@ -1,0 +1,636 @@
+.site-footer {
+  margin-top: 144px;
+}
+
+.footer-content__wrapper {
+  background-color: #2C343E;
+}
+
+.logo-wrapper {
+  width: 236px;
+  padding-top: 54px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link:hover {
+  opacity: 0.6;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.networks-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 54px;
+}
+
+.nertworks-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.networks-link {
+  fill: #FEFCF7;
+}
+
+.networks-link:hover {
+  opacity: 0.6;
+}
+
+.btn{
+  display: block;
+}
+
+.order-madal__mobile{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .header-logo__img {
+    width: 235px;
+  }
+
+  .header-section {
+    align-items: center;
+    display: flex;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .header-nav {
+    position: relative;
+    z-index: 1;
+    display: block;
+    flex-direction: column;
+    height: 0;
+    padding: 0;
+  }
+
+  .header-nav__list {
+    display: flex;
+    margin-top: -19px;
+  }
+
+  .header-nav__item {
+    align-items: center;
+
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 33px;
+    margin-bottom: 0;
+  }
+
+  .header-nav__link {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #83888F;
+    transition: color 0.5s ease;
+  }
+
+  .header-nav__link:hover{
+    color: #333D4B;
+  }
+
+  /* HERO */
+
+  .hero-section {
+    background-image: url('../img/creat-plan-bitmap.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero-heading {
+    width: 493px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  .hero-text {
+    width: 425px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .hero-link {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  /* step */
+  .step {
+    margin-top: 68px;
+  }
+
+  .step-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 176px;
+    position: relative;
+  }
+
+  .step--icon {
+    width: 223px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+    margin-bottom: 100px;
+  }
+
+  .step__content::before {
+    text-align: left;
+  }
+
+  .step-heading {
+    margin: 0;
+    font-family: 'Fraunces 9pt', sans-serif;
+    text-align: left;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 42px;
+    padding-bottom: 38px;
+  }
+
+  .step-text {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+  .step--icon::before {
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    top: -86px;
+  }
+
+  .step--icon:not(:last-child):after {
+    content: '';
+    position: absolute;
+    width: calc(100% + 10px);
+    height: 3px;
+    background-color: #FDD6BA;
+    top: -73px;
+    left: 19px;
+    z-index: -1;
+  }
+
+  /* .how-you-drink */
+  .how__drink--heading {
+    width: 100%;
+  }
+
+  .faq__form {
+    display: none;
+    margin-left: -15px;
+  }
+
+
+  .how__drink--open .faq__form{
+    display: flex;
+  }
+
+
+  .how__drink-input:checked ~ .how__drink--content {
+    background-color: #0E8784;
+    border-radius: 10px;
+  }
+
+  .how__drink-input:checked ~ .how__drink--content .capsule{
+    color: #FFF;
+  }
+
+  .how__drink-input:checked ~ .how__drink--content .compatible{
+    color: #FFF;
+  }
+
+
+  .faq-from__group {
+    width: 223px;
+    margin-left: 15px;
+    transition: all 0.5s ease;
+  }
+
+  .faq-from__group:hover {
+    background: #FDD6BA;
+  }
+
+
+  /* SUMMARY */
+
+  .summary__content {
+    padding: 0;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 27px 64px;
+  }
+
+  .create__plan {
+    transition: all 0.5s ease;
+  }
+
+  .create__plan:hover {
+    background: #66D2CF;
+    border-radius: 6px;
+    border: 2px solid #66D2CF;
+    color: #FFF;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-item2 {
+    padding: 0 32px;
+  }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+  .container {
+    width: 100%;
+    min-width: 1100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section {
+    background-image: url('../img/creat-plan-bitmap.png');
+  }
+
+
+  .hero-heading {
+    width: 493px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  .hero-text {
+    width: 425px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-link {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .step--icon {
+    width: 285px;
+    margin-left: 95px;
+  }
+
+  .step--icon:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    width: calc(100% + 95px);
+    height: 3px;
+    background-color: #FDD6BA;
+    top: -73px;
+    left: 19px;
+    z-index: -1;
+  }
+
+  .preferences {
+    display: block;
+    counter-reset: work-process;
+    margin-right: 72px;
+  }
+
+  .preferences__item2 {
+    margin-top: 0;
+  }
+
+  .preferences__item {
+    list-style: none;
+    margin-bottom: 49px;
+    opacity: 0.5;
+    display: flex;
+  }
+
+  .preferences__link{
+    transition: color 0.5s ease;
+    color: #333D4B;
+  }
+
+  .preferences__link:hover{
+    color: #333D4B;
+    opacity: 0.4;
+  }
+
+  .preferences__link:active{
+    color: #333D4B;
+  }
+
+  .preferences__link::before {
+    counter-increment: work-process;
+    content: "0"counter(work-process);
+    margin-right: 25px;
+  }
+
+  .preferences__content::before {
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    font-family: 'Fraunces 9pt', sans-serif;
+    color: #FDD6BA;
+  }
+
+  .preferences__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #83888F;
+    opacity: 0.25;
+    left: 0;
+    bottom: -20px;
+  }
+
+  .preferences__link {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Fraunces 9pt', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    white-space: nowrap;
+  }
+
+  .form__wrapper {
+    margin: 0;
+    display: flex;
+    margin-top: 168px;
+  }
+  .faq__form{
+    display: none;
+  }
+
+  .how__drink--open .faq__form{
+    display: flex;
+  }
+
+  .how__drink--item {
+    width: 710px;
+    justify-content: end;
+    position: relative;
+  }
+
+  .how__drink--content{
+    padding: 32px 28px 84px 28px;
+  }
+
+  .how__drink-input:checked ~ .how__drink--content {
+    background-color: #0E8784;
+    border-radius: 10px;
+  }
+
+  .how__drink-input:checked ~ .how__drink--content .capsule{
+    color: #FFF;
+  }
+
+  .how__drink-input:checked ~ .how__drink--content .compatible{
+    color: #FFF;
+  }
+
+
+  .how__drink {
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .summary__list {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .summary__content{
+    margin-right: 0;
+  }
+
+  /* FOOTER */
+  .site-footer {
+    margin-top: 168px;
+  }
+
+  .footer-content__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 85px;
+  }
+
+  .logo-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/* MODAL */
+
+.order-modal {
+  display: none;
+}
+
+.order-modal--active{
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding: 35px 24px;
+  background-color: rgba(2, 2, 2, 0.507);
+}
+.order-modal__wrapper {
+  background-color: var(--light-grey-bg);
+}
+
+
+
+.order-modal-top {
+  padding: 24px;
+  background-color: var(--dark-grey-blue);
+}
+
+.order-modal__heading {
+  margin: 0;
+  color: var(--light-grey-bg);
+  font-family: var(--secondary-font);
+}
+
+.order-modal_box {
+  padding: 24px;
+  margin-bottom: 20px;
+  background-color: var(--light-grey-bg);
+}
+
+.order-modal__content{
+  margin: 0;
+  font-family: var(--secondary-font);
+  color: var(--grey);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+}
+.order-modal__content span{
+  color: var(--dark-cyan);
+}
+
+.order-modal__info{
+  font-family: 'Barlow',sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+.order-modal{
+  overflow: hidden;
+}
+
+.order-modal--active {
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.order-modal__wrapper{
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+}
+.order-modal-top {
+  padding: 48px 56px;
+}
+
+.order-modal_box {
+  padding: 56px;
+  border-radius: 0 0 8px 8px;
+}
+.order-modal__wrapper{
+  width: 540px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  white-space: nowrap;
+  border: none;
+}
+
+.btn--primary {
+  display: block;
+  background-color: var(--dark-cyan);
+  color: var(--light-grey-bg);
+}
+
+.btn--primary:hover {
+  background-color: #66D2CF;
+}
+
+.btn--primary:active {
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 768px){
+  .btn--primary{
+    display: none;
+  }
+
+  .order-madal__mobile{
+    display: block;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  .order-madal__mobile-text{
+    font-family: 'Fraunces 9pt',sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+  }
+
+  .order-checkout__button{
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-family: 'Fraunces 9pt',sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background-color: #0E8784;
+    padding: 15px 64px;
+    margin-left: 9px;
+    transition: background-color 0.5s ease;
+  }
+
+  .order-checkout__button:hover{
+    background-color: #66D2CF;
+  }
+}
